@@ -44,3 +44,21 @@
   color: red;
   border-bottom: 1px solid white;
 }
+.flex-container {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.acotar h3 {
+  text-align: center;
+  color: white;
+  font-family: luminari;
+}
+.acotar img {
+  width: 175px;
+  height: 300px;
+}
