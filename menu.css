@@ -22,7 +22,7 @@
 .wrapper {
   background-color: black;
   margin: 0 auto;
-  width: 800px;
+  width: 700px;
 }
 .wrapperHeadings {
   text-align: center;
@@ -98,4 +98,56 @@
   text-align: center;
   color: white;
   font-family: luminari;
+
+}
+.intro-para{
+  width: 50%;
+  float: left;
+  margin-left: 20px;
+
+} 
+
+.intro-para p{
+  text-align: left;
+}
+.card-title{
+  text-align: center;
+}
+.card small{
+  margin-left: 10px;
+  
+}
+.card-body{
+  background-color:darkred;
+}
+.card li{
+  background-color: darkred;
+}
+.card{
+  color: white;
+  float: right;
+  margin-right: 10px;
+  
+}
+.contents{
+  width: 200px;
+  height: 300px;
+  border: 1px solid red;
+  color: red;
+  background-color: black;
+  
+}
+.contents h4{
+  text-align: center;
+}
+.contents a{
+  font-size: large;
+}
+.intro-para h2{
+  color: red;
+  border-bottom: 1px solid red;
+}
+.intro-para p{
+  margin-left: -1em;
+  margin-top: -1em;
 }
