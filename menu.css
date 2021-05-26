@@ -89,7 +89,6 @@
 .flex-container-characters{
   display: flex;
   margin: 5px;
-  padding: 10px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -99,8 +98,17 @@
   text-align: center;
   color: white;
   font-family: luminari;
-
+ 
 }
+
+/* .flex-container-acotar{
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap:wrap;
+  text-align: justify;
+} */
  .intro-para{
   width: 50%;
   float: left;
@@ -124,11 +132,30 @@
 
 .card{
   color: white;
-  float: right;
+  float: right; 
+  position: relative;
+}
+
+
+
+.contents{
+  width: 35%;
+  
+  border: 1px solid red;
+  color: red;
+  background-color: black;
+  float: left;
   
 }
 
-.intro-para h2{
+.contents h4{
+  text-align: center;
+}
+.contents a{
+  font-size: large;
+}
+/*
+.plot h2{
   color: red;
   border-bottom: 1px solid red;
 }
@@ -137,27 +164,12 @@
   margin-top: -1em;
 }
 
-.contents{
-  width: 200px;
-  height: 300px;
-  border: 1px solid red;
-  color: red;
-  background-color: black;
-  
-}
-.contents h4{
-  text-align: center;
-}
-.contents a{
-  font-size: large;
-}
-#synopsis{
-  margin-top: 10px;
-}
-body{
+
+
+ */
+ body{
   color: white;
 }
- */
 .search{
   margin: 5px;
   text-align: center;
@@ -178,10 +190,20 @@ body{
 .btn{
   border-radius: 10px;
 }
-.flex-container-acotar{
-  display: flex;
-  margin: 5px;
-  padding: 10px;
-  flex-direction: row;
-  flex-wrap: wrap;
+section{
+margin: 5px;
+padding: 10px;
+justify-content: left;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+.synopsis h2{
+
+color: red;
+  border-bottom: 1px solid red;
+}
+.synopsis{
+  float: left;
+  
 }
