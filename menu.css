@@ -107,6 +107,7 @@
 
 } 
 
+
 .intro-para p{
   text-align: left;
 }
@@ -150,4 +151,24 @@
 .intro-para p{
   margin-left: -1em;
   margin-top: -1em;
+}
+.search{
+  margin: 5px;
+  text-align: center;
+}
+.search-bar{
+  border-radius: 20px;
+  border: 2px solid red;
+  padding: 5px 0;
+  margin: 5px;
+  outline: none;
+  width: 40%;
+  background-color: black;
+  color: red;
+}
+.search ::placeholder{
+  color: red;
+}
+.btn{
+  border-radius: 10px;
 }
