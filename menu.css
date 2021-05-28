@@ -4,8 +4,6 @@
   position: sticky;
   top: 0;
 }
-
-
 #title {
   font-size: 2em;
   color: silver;
@@ -21,8 +19,8 @@
 }
 .wrapper {
   background-color: black;
-  border: 1px solid red;
   margin: 0 auto;
+  border: 2px solid black;
   width: 700px;
 }
 .wrapperHeadings {
@@ -139,7 +137,7 @@
 
 
 .contents{
-  width: 35%;
+  width: 50%;
   
   border: 1px solid red;
   color: red;
@@ -154,19 +152,7 @@
 .contents a{
   font-size: large;
 }
-/*
-.plot h2{
-  color: red;
-  border-bottom: 1px solid red;
-}
-.intro-para p{
-  margin-left: -1em;
-  margin-top: -1em;
-}
 
-
-
- */
  body{
   color: white;
 }
@@ -193,17 +179,70 @@
 section{
 margin: 5px;
 padding: 10px;
-justify-content: left;
+
 flex-wrap: wrap;
 flex-direction: row;
+
 
 }
 .synopsis h2{
 
 color: red;
   border-bottom: 1px solid red;
+  text-align: left;
 }
 .synopsis{
-  float: left;
-  
+  text-align: left;
+  margin: 10px;
+  margin-left: -10px;
+  margin-top: 30px;
 }
+.plot h2{
+
+  color: red;
+    border-bottom: 1px solid red;
+    text-align: left;
+  }
+.plot{
+    text-align: left;
+    margin: 10px;
+    margin-left: -10px;
+    margin-top: 30px;
+  }
+.plot-summary h2{
+
+    color: red;
+      border-bottom: 1px solid red;
+      text-align: left;
+    }
+.plot-summary{
+      text-align: left;
+      margin: 10px;
+      margin-left: -10px;
+      margin-top: 30px;
+    }
+.adaptation h2{
+
+      color: red;
+        border-bottom: 1px solid red;
+        text-align: left;
+      }
+.adaptation{
+        text-align: left;
+        margin: 10px;
+        margin-left: -10px;
+        margin-top: 30px;
+      }
+.trivia h2{
+
+        color: red;
+          border-bottom: 1px solid red;
+          text-align: left;
+        }
+.trivia{
+          text-align: left;
+          margin: 10px;
+          margin-left: -10px;
+          margin-top: 30px;
+        }
+      
