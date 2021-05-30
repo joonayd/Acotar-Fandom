@@ -241,4 +241,40 @@ color: red;
           margin-left: -10px;
           margin-top: 30px;
         }
-      
+.biography h2{
+
+          color: red;
+            border-bottom: 1px solid red;
+            text-align: left;
+          }
+.biography{
+            text-align: left;
+            margin: 10px;
+            margin-left: -10px;
+            margin-top: 30px;
+          }
+.wrapper p{
+  text-align: left;
+}
+.physical-appear h2{
+  color: red;
+            border-bottom: 1px solid red;
+            text-align: left;
+}  
+.physical-appear {
+  text-align: left;
+  margin: 10px;
+  margin-left: -10px;
+  margin-top: 30px;
+}
+.personality h2{
+  color: red;
+            border-bottom: 1px solid red;
+            text-align: left;
+}  
+.personality{
+  text-align: left;
+  margin: 10px;
+  margin-left: -10px;
+  margin-top: 30px;
+}        
