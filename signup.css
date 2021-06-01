@@ -50,3 +50,6 @@ hr{
     width: 30px;
     margin: -27px auto 10px;
 }
+.error{
+    border: 1px solid red;
+}
