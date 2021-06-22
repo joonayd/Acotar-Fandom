@@ -1,0 +1,87 @@
+doctype html
+head
+  title Under the Mountain | Acotar Fandom
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')
+  link(rel='stylesheet' href='./menu.css')
+.container
+  nav.navbar.navbar-expand-md.navbar-dark.bg-dark
+    a.navbar-brand(href='#') Acotar Fandom
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent')
+      span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul.navbar-nav.ml-auto
+        li.nav-item.active
+          a.nav-link(href='menu.html') Home
+        li.nav-item.dropdown
+          a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown')
+            | Books
+          .dropdown-menu(aria-labelledby='navbarDropdown')
+            a.dropdown-item(href='acotar.html') Acotar
+            .dropdown-divider
+            a.dropdown-item(href='acomaf.html') Acomaf
+            .dropdown-divider
+            a.dropdown-item(href='acowar.html') Acowar
+            .dropdown-divider
+            a.dropdown-item(href='acofas.html') Acofas
+            .dropdown-divider
+            a.dropdown-item(href='acosf.html') Acosf
+        li.nav-item.dropdown
+          a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown')
+            | Characters
+          .dropdown-menu(aria-labelledby='navbarDropdown')
+            a.dropdown-item(href='rhysand.html') Rhsyand
+            .dropdown-divider
+            a.dropdown-item(href='feyre.html') Feyre
+            .dropdown-divider
+            a.dropdown-item(href='cassian.html') Cassian
+            .dropdown-divider
+            a.dropdown-item(href='azriel.html') Azriel
+            .dropdown-divider
+            a.dropdown-item(href='nesta.html') Nesta
+        li.nav-item.dropdown
+          a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-toggle='dropdown')
+            | Locations
+          .dropdown-menu(aria-labelledby='navbarDropdown')
+            a.dropdown-item(href='prythian.html') Prythian
+            .dropdown-divider
+            a.dropdown-item(href='velaris.html') Velaris
+            .dropdown-divider
+            a.dropdown-item(href='mountain.html') Under the Mountain
+            .dropdown-divider
+            a.dropdown-item(href='hybern.html') Hybern
+        li.nav-item
+          a.nav-link(href='#') Shop
+  .wrapper
+    .mainHeading
+      h1 Under the Mountain
+    section
+      // This is the intro paragraph
+      .intro-para
+        p
+          | Velaris, or the City of Starlight, is a hidden city on the western side of the Night Court. It is home to the Court of Dreams, one of the two sub-courts of the Night Court. The walls of Velaris had not been breached in over five thousand years. The city remained hidden from Amarantha, thanks to Rhysand&apos;s sacrifice Under the Mountain.
+      // this is the card
+      .card(style='width: 18rem;')
+        img.card-img-top(src='mountain.jpg' alt='')
+        .card-body
+          h5.card-title General Information
+        ul.list-group.list-group-flush
+          li.list-group-item
+            | Name
+            br
+            small   Velaris
+          li.list-group-item
+            | Continent
+            br
+            small   Prythian
+          li.list-group-item
+            | Court
+            br
+            small   Night Court
+          li.list-group-item
+            | Notable Residents
+            br
+            small
+              | Amarantha

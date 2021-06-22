@@ -1,0 +1,29 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Document
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js')
+  script(src='./signup.js')
+  link(rel='stylesheet' href='./signup.css')
+.signup-form
+  svg.bi.bi-person-circle(xmlns='http://www.w3.org/2000/svg' width='40' height='40' fill='currentColor' viewbox='0 0 16 16')
+    path(d='M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z')
+    path(fill-rule='evenodd' d='M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z')
+  h1 Sign Up Now
+  form(action='')
+    input#email.input-box(type='email' placeholder='Your Email')
+    input#password.input-box(type='password' placeholder='Your Password')
+    p
+      span
+        input#checkbox-1(type='checkbox')
+      |  I Agree to the terms of services
+    button# signup.btn.bg-danger Sign Up
+    hr
+    p.or OR
+    p Do you have an account? 
+    button.btn.bg-danger Login
